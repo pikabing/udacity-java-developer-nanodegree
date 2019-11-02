@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thymeleaft Demo</title>
+</head>
+<body>
+    <h3 th:text = "${message}"></h3>
+    <div th:if="${grade} >= 60">
+        <p>You passed your exam.</p>
+        <div th:switch="${GPA}">
+            You are
+            <span th:case="A"> Excellent</span>
+            <span th:case="B"> Good</span>
+            <span th:case="C"> Okay</span>
+            <span th:case="D"> Bad</span>
+        </div>
+    </div>
+</body>
+</html>

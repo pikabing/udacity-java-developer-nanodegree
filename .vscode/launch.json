@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "springboot_demo.demo.src.main.java.com.example.demo.DemoApplication",
+            "projectName": "java_nanodegree_6bc72698"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo",
+            "args": ""
+        }
+    ]
+}
