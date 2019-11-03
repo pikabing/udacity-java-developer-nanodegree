@@ -16,6 +16,16 @@
             "mainClass": "com.example.demo.DemoApplication",
             "projectName": "demo",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<graphql>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.demo.graphql.DemoApplication",
+            "projectName": "graphql",
+            "args": ""
         }
     ]
 }
