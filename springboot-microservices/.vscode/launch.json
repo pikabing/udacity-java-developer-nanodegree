@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<microservices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.eureka.microservices.DemoApplication",
+            "projectName": "microservices",
+            "args": ""
+        }
+    ]
+}
