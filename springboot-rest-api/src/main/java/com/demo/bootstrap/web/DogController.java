@@ -12,7 +12,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+
 @RestController
+@ApiResponses(value = {
+    @ApiResponse(code = 400, message = "Bad Request."),
+    @ApiResponse(code = 401, message = "Unauthorized Request."),
+    @ApiResponse(code = 500, message = "Server down. Please check if Dog microservice is running or not.")
+})
 public class DogController {
 
     private DogService dogService;
